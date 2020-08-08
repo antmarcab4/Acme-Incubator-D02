@@ -19,6 +19,7 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+			<acme:menu-suboption code="master.menu.anonymous.technologyRecord.list" action="/anonymous/technology-record/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-alorodlla" action="https://es-es.facebook.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-davtorcue" action="https://www.youtube.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link-jospearui" action="https://twitter.com/"/>

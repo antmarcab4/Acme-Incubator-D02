@@ -17,4 +17,48 @@
 
 	<import resource="conversion-service.xml" />
 
+  <!-- Technology Records -->
+	<bean id="technologyRecord01" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value= "title 01"/>
+		<property name="inventor" value= "inventor 01"/>
+		<property name="description" value= "Description 01"/>
+		<property name="activitySector" value= "ARTS"/>
+		<property name="webSite" value= "https://www.example01.com"/>
+		<property name="email" value= "email01@hotmail.com"/>
+		<property name="openSource" value= "true"/>
+		<property name="stars" value= "0"/>
+	</bean>
+	
+	<bean id="technologyRecord02" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value= "title 02"/>
+		<property name="inventor" value= "inventor 02"/>
+		<property name="description" value= "Description 02"/>
+		<property name="activitySector" value= "ARTS"/>
+		<property name="webSite" value= "https://www.example02.com"/>
+		<property name="email" value= "email02@hotmail.com"/>
+		<property name="openSource" value= "false"/>
+		<property name="stars" value= "5"/>
+	</bean>
+	
+	<bean id="technologyRecord03" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value= "title 03"/>
+		<property name="inventor" value= "inventor 03"/>
+		<property name="description" value= "Description 03"/>
+		<property name="activitySector" value= "TECHNOLOGY"/>
+		<property name="webSite" value= "https://www.example03.com"/>
+		<property name="email" value= "email03@hotmail.com"/>
+		<property name="openSource" value= "false"/>
+		<property name="stars" value= "-2"/>
+	</bean>
+	
+	<bean id="technologyRecord04" class="acme.entities.technologyRecords.TechnologyRecord">
+		<property name="title" value= "title 04"/>
+		<property name="inventor" value= "inventor 04"/>
+		<property name="description" value= "Description 04"/>
+		<property name="activitySector" value= "HEALTH"/>
+		<property name="webSite" value= "https://www.example04.com"/>
+		<property name="email" value= "email04@hotmail.com"/>
+		<property name="openSource" value= "true"/>
+		<property name="stars"> <null/> </property>
+	</bean>
 </beans>
