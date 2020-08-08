@@ -35,6 +35,10 @@ master.menu.anonymous.favourite-link-davtorcue = Enlace favorito-davtorcue
 master.menu.anonymous.favourite-link-jospearui = Enlace favorito-jospearui
 master.menu.anonymous.favourite-link-antmarcab = Enlace favorito-antmarcab
 
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated.technologyRecord.list= Technology Record
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
