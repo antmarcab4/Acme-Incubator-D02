@@ -38,6 +38,20 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `technology_record` (
+       `id` integer not null,
+        `version` integer not null,
+        `activity_sector` integer,
+        `description` varchar(255),
+        `email` varchar(255),
+        `inventor` varchar(255),
+        `open_source` bit not null,
+        `stars` integer,
+        `title` varchar(255),
+        `web_site` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `user_account` (
        `id` integer not null,
         `version` integer not null,
