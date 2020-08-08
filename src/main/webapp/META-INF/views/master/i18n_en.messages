@@ -29,7 +29,8 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.technologyRecord.list= Technology Record
+master.menu.anonymous.technologyRecord.list= Technology Records
+master.menu.anonymous.toolRecord.list= Tool Records
 master.menu.anonymous.favourite-link-alorodlla = Favourite link-alorodlla
 master.menu.anonymous.favourite-link-davtorcue = Favourite link-davtorcue
 master.menu.anonymous.favourite-link-jospearui = Favourite link-jospearui
@@ -37,7 +38,8 @@ master.menu.anonymous.favourite-link-antmarcab = Favourite link-antmarcab
 
 # master.menu.authenticated #######################################################
 
-master.menu.authenticated.technologyRecord.list= Technology Record
+master.menu.authenticated.technologyRecord.list= Technology Records
+master.menu.authenticated.toolRecord.list= Tool Records
 
 # master.menu.administrator ###################################################
 

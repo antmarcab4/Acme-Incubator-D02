@@ -31,6 +31,8 @@
 
     drop table if exists `technology_record`;
 
+    drop table if exists `tool_record`;
+
     drop table if exists `user_account`;
 
     drop table if exists `hibernate_sequence`;
