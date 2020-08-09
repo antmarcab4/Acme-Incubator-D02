@@ -29,6 +29,8 @@
 
     drop table if exists `inquiry`;
 
+    drop table if exists `overture`;
+
     drop table if exists `provider`;
 
     drop table if exists `technology_record`;

@@ -148,5 +148,25 @@
 		<property name="email" value= "emailenquiry04@hotmail.com"/>
 	</bean>	
 	
+	<!-- Overtures -->
+	<bean id="overture01" class="acme.entities.overtures.Overture">
+		<property name="title" value= "title overture 01"/>
+		<property name="description" value= "Description overture 01"/>
+		<property name="creation" value= "2010/03/05 20:15"/>
+		<property name="deadline" value= "2025/10/20 13:59"/>
+		<property name="minMoney" value= "€ 100.00"/>
+		<property name="maxMoney" value= "€ 500.00"/>
+		<property name="email" value= "emailoverture01@hotmail.com"/>
+	</bean>
+	
+	<bean id="overture02" class="acme.entities.overtures.Overture">
+		<property name="title" value= "title overture 02"/>
+		<property name="description" value= "Description overture 02"/>
+		<property name="creation" value= "2018/03/11 20:15"/>
+		<property name="deadline" value= "2020/01/11 23:59"/>
+		<property name="minMoney" value= "€ 800.00"/>
+		<property name="maxMoney" value= "€ 2,000.00"/>
+		<property name="email" value= "emailoverture02@hotmail.com"/>
+	</bean>
 	
 </beans>
