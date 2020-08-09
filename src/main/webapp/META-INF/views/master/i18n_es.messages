@@ -41,6 +41,7 @@ master.menu.anonymous.favourite-link-antmarcab = Enlace favorito-antmarcab
 master.menu.authenticated.technologyRecord.list= Registros Tecnologicos
 master.menu.authenticated.toolRecord.list= Registros de herramientas
 master.menu.authenticated.inquiry.list= Investigaciones
+master.menu.authenticated.overture.list = Propuestas
 
 # master.menu.administrator ###################################################
 
