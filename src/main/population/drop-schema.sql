@@ -27,6 +27,8 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `inquiry`;
+
     drop table if exists `provider`;
 
     drop table if exists `technology_record`;

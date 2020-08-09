@@ -18,10 +18,4 @@ public interface AuthenticatedTechnologyRecordRepository extends AbstractReposit
 	@Query("select t from TechnologyRecord t")
 	Collection<TechnologyRecord> findManyAll();
 
-	@Query("select t from TechnologyRecord t where t.activitySector = ?1")
-	Collection<TechnologyRecord> findByActivitySector(String sector);
-
-	@Query("select t from TechnologyRecord t where t.stars = ?1")
-	Collection<TechnologyRecord> findByStars(Integer stars);
-
 }
