@@ -62,7 +62,7 @@
 		<property name="stars"> <null/> </property>
 	</bean>
 	
-<!-- Tool Records -->
+	<!-- Tool Records -->
 	<bean id="toolRecord01" class="acme.entities.toolRecords.ToolRecord">
 		<property name="title" value= "title tool 01"/>
 		<property name="inventor" value= "inventor tool 01"/>
@@ -107,6 +107,7 @@
 		<property name="stars"> <null/> </property>
 	</bean>	
 	
+
 	<!-- Challenges -->
     <bean id="challenge01" class="acme.entities.challenges.Challenge">
 		<property name="title" value="your first challenge"/>
@@ -155,5 +156,69 @@
 		<property name="objetivoExpert" value="meh"/>
 		<property name="premioExpert" value="EUR 5"/>
 	</bean>
+
+	<!-- Inquiries -->
+	<bean id="inquiry01" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value= "title inquiry 01"/>
+		<property name="description" value= "Description tool 01"/>
+		<property name="creation" value= "2010/03/05 20:15"/>
+		<property name="deadline" value= "2025/10/20 13:59"/>
+		<property name="minMoney" value= "€ 100.00"/>
+		<property name="maxMoney" value= "€ 500.00"/>
+		<property name="email" value= "emailenquiry01@hotmail.com"/>
+	</bean>
+	
+	<bean id="inquiry02" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value= "title inquiry 02"/>
+		<property name="description" value= "Description tool 02"/>
+		<property name="creation" value= "2018/03/11 20:15"/>
+		<property name="deadline" value= "2020/01/11 23:59"/>
+		<property name="minMoney" value= "€ 800.00"/>
+		<property name="maxMoney" value= "€ 2,000.00"/>
+		<property name="email" value= "emailenquiry02@hotmail.com"/>
+	</bean>
+	
+	<bean id="inquiry03" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value= "title inquiry 03"/>
+		<property name="description" value= "Description tool 03"/>		
+		<property name="creation" value= "2018/03/11 20:15"/>
+		<property name="deadline" value= "2022/12/11 10:30"/>
+		<property name="minMoney" value= "€ 1,500.00"/>
+		<property name="maxMoney" value= "€ 3,000.50"/>
+		<property name="email" value= "emailenquiry03@hotmail.com"/>
+	</bean>
+	
+	<bean id="inquiry04" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value= "title inquiry 04"/>
+		<property name="description" value= "Description tool 04"/>
+		<property name="creation" value= "2020/03/21 20:15"/>
+		<property name="deadline" value= "2030/12/11 23:59"/>
+		<property name="minMoney" value= "€ 1,000.00"/>
+		<property name="maxMoney" value= "€ 5,000.00"/>
+		<property name="email" value= "emailenquiry04@hotmail.com"/>
+	</bean>	
+	
+	<!-- Overtures -->
+	<bean id="overture01" class="acme.entities.overtures.Overture">
+		<property name="title" value= "title overture 01"/>
+		<property name="description" value= "Description overture 01"/>
+		<property name="creation" value= "2010/03/05 20:15"/>
+		<property name="deadline" value= "2025/10/20 13:59"/>
+		<property name="minMoney" value= "€ 100.00"/>
+		<property name="maxMoney" value= "€ 500.00"/>
+		<property name="email" value= "emailoverture01@hotmail.com"/>
+	</bean>
+	
+	<bean id="overture02" class="acme.entities.overtures.Overture">
+		<property name="title" value= "title overture 02"/>
+		<property name="description" value= "Description overture 02"/>
+		<property name="creation" value= "2018/03/11 20:15"/>
+		<property name="deadline" value= "2020/01/11 23:59"/>
+		<property name="minMoney" value= "€ 800.00"/>
+		<property name="maxMoney" value= "€ 2,000.00"/>
+		<property name="email" value= "emailoverture02@hotmail.com"/>
+	</bean>
+	
+
 </beans>
 
