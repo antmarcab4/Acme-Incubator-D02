@@ -31,6 +31,7 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.technologyRecord.list= Registros Tecnologicos
 master.menu.anonymous.toolRecord.list= Registros de herramientas
+master.menu.anonymous.notice.list = Avisos
 master.menu.anonymous.favourite-link-alorodlla = Enlace favorito-alorodlla
 master.menu.anonymous.favourite-link-davtorcue = Enlace favorito-davtorcue
 master.menu.anonymous.favourite-link-jospearui = Enlace favorito-jospearui
@@ -42,9 +43,11 @@ master.menu.authenticated.technologyRecord.list= Registros Tecnologicos
 master.menu.authenticated.toolRecord.list= Registros de herramientas
 master.menu.authenticated.inquiry.list= Investigaciones
 master.menu.authenticated.overture.list = Propuestas
+master.menu.authenticated.notice.list = Avisos
 
 # master.menu.administrator ###################################################
 
+master.menu.administrator.notice.list = Avisos
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema

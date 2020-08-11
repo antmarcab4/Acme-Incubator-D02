@@ -169,4 +169,42 @@
 		<property name="email" value= "emailoverture02@hotmail.com"/>
 	</bean>
 	
+	<!-- Notices -->
+	<bean id="notice01" class="acme.entities.notices.Notice">
+		<property name="header" value= "https://i.pinimg.com/originals/f8/b2/7d/f8b27d53c369a1413a8876a1d3d1a597.jpg"/>
+		<property name="title" value= "title notice 1"/>
+		<property name="body" value= "Description of body 1"/>
+		<property name="creationDateTime" value= "2015/02/15 10:15"/>
+		<property name="deadline" value= "2026/10/10 12:59"/>
+		<property name="optionalLinks"><null/></property>
+	</bean>
+	
+	<bean id="notice02" class="acme.entities.notices.Notice">
+		<property name="header" value= "https://i.pinimg.com/originals/f8/b2/7d/f8b27d53c369a1413a8876a1d3d1a597.jpg"/>
+		<property name="title" value= "title notice 2"/>
+		<property name="body" value= "Description of body 2"/>
+		<property name="creationDateTime" value= "2013/02/15 12:15"/>
+		<property name="deadline" value= "2027/11/11 02:59"/>
+		<property name="optionalLinks"><null/></property>
+	</bean>
+	
+	<bean id="notice03" class="acme.entities.notices.Notice">
+		<property name="header" value= "https://i.pinimg.com/originals/f8/b2/7d/f8b27d53c369a1413a8876a1d3d1a597.jpg"/>
+		<property name="title" value= "title notice 3"/>
+		<property name="body" value= "Description of body 3"/>
+		<property name="creationDateTime" value= "2014/02/15 15:15"/>
+		<property name="deadline" value= "2024/12/12 14:59"/>
+		<property name="optionalLinks"><null/></property>
+	</bean>
+	
+	<bean id="notice04" class="acme.entities.notices.Notice">
+		<property name="header" value= "https://i.pinimg.com/originals/f8/b2/7d/f8b27d53c369a1413a8876a1d3d1a597.jpg"/>
+		<property name="title" value= "title notice 4"/>
+		<property name="body" value= "Description of body 4"/>
+		<property name="creationDateTime" value= "2014/02/15 15:15"/>
+		<property name="deadline" value= "2019/01/21 14:59"/>
+		<property name="optionalLinks"><null/></property>
+	</bean>
+	
+	
 </beans>
