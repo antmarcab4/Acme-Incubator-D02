@@ -32,6 +32,7 @@
 		<acme:menu-option code="master.menu.user-account" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.technologyRecord.list" action="/authenticated/technology-record/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.toolRecord.list" action="/authenticated/tool-record/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.challenge.list" action="/authenticated/challenge/list" />
 			<acme:menu-suboption code="master.menu.authenticated.inquiry.list" action="/authenticated/inquiry/list"/>			
 			<acme:menu-suboption code="master.menu.authenticated.overture.list" action="/authenticated/overture/list"/>	
 			<acme:menu-suboption code="master.menu.authenticated.notice.list" action="/authenticated/notice/list"/>

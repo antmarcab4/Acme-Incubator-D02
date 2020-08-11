@@ -1,4 +1,5 @@
 
+
     create table `administrator` (
        `id` integer not null,
         `version` integer not null,
@@ -17,6 +18,24 @@
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `challenge` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `objetivo_average` varchar(255),
+        `objetivo_expert` varchar(255),
+        `objetivo_rookie` varchar(255),
+        `premio_average_amount` double precision,
+        `premio_average_currency` varchar(255),
+        `premio_expert_amount` double precision,
+        `premio_expert_currency` varchar(255),
+        `premio_rookie_amount` double precision,
+        `premio_rookie_currency` varchar(255),
+        `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -40,18 +59,6 @@
         `max_money_currency` varchar(255),
         `min_money_amount` double precision,
         `min_money_currency` varchar(255),
-        `title` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `notice` (
-       `id` integer not null,
-        `version` integer not null,
-        `body` varchar(255),
-        `creation_date_time` datetime(6),
-        `deadline` datetime(6),
-        `header` varchar(255),
-        `optional_links` varchar(255),
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;

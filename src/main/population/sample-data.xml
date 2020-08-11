@@ -107,6 +107,56 @@
 		<property name="stars"> <null/> </property>
 	</bean>	
 	
+
+	<!-- Challenges -->
+    <bean id="challenge01" class="acme.entities.challenges.Challenge">
+		<property name="title" value="your first challenge"/>
+		<property name="deadline" value="2020/10/10 19:10"/>
+		<property name="description" value="this is your first challenge"/>
+		<property name="objetivoRookie" value="complete objective 1"/>
+		<property name="premioRookie" value="EUR 20"/>
+		<property name="objetivoAverage" value="complete objectives 1 and 2"/>
+		<property name="premioAverage" value="EUR 50"/>
+		<property name="objetivoExpert" value="complete any 5 objectives"/>
+		<property name="premioExpert" value="EUR 300"/>
+	</bean>
+	
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
+		<property name="title" value="your second challenge"/>
+		<property name="deadline" value="2021/12/11 17:15"/>
+		<property name="description" value="this is your second challenge"/>
+		<property name="objetivoRookie" value="do rookie things"/>
+		<property name="premioRookie" value="EUR 50"/>
+		<property name="objetivoAverage" value="do average things"/>
+		<property name="premioAverage" value="EUR 100"/>
+		<property name="objetivoExpert" value="do EXPERT things"/>
+		<property name="premioExpert" value="EUR 200"/>
+	</bean>
+	
+	<bean id="challenge03" class="acme.entities.challenges.Challenge">
+		<property name="title" value="your third and last challenge :P"/>
+		<property name="deadline" value="2100/12/10 20:00"/>
+		<property name="description" value="this is your last challenge"/>
+		<property name="objetivoRookie" value="just do something"/>
+		<property name="premioRookie" value="EUR 30"/>
+		<property name="objetivoAverage" value="do something more"/>
+		<property name="premioAverage" value="EUR 40"/>
+		<property name="objetivoExpert" value="do EVERYTHING"/>
+		<property name="premioExpert" value="EUR 500"/>
+	</bean>
+	
+	<bean id="challengePAST" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Should not be showed"/>
+		<property name="deadline" value="2018/12/10 20:00"/>
+		<property name="description" value="should not matter"/>
+		<property name="objetivoRookie" value="meh"/>
+		<property name="premioRookie" value="EUR 3"/>
+		<property name="objetivoAverage" value="meh"/>
+		<property name="premioAverage" value="EUR 4"/>
+		<property name="objetivoExpert" value="meh"/>
+		<property name="premioExpert" value="EUR 5"/>
+	</bean>
+
 	<!-- Inquiries -->
 	<bean id="inquiry01" class="acme.entities.inquiries.Inquiry">
 		<property name="title" value= "title inquiry 01"/>
@@ -205,6 +255,5 @@
 		<property name="deadline" value= "2019/01/21 14:59"/>
 		<property name="optionalLinks"><null/></property>
 	</bean>
-	
-	
 </beans>
+

@@ -41,10 +41,10 @@ master.menu.anonymous.favourite-link-antmarcab = Favourite link-antmarcab
 
 master.menu.authenticated.technologyRecord.list= Technology Records
 master.menu.authenticated.toolRecord.list= Tool Records
+master.menu.authenticated.challenge.list= Challenges
 master.menu.authenticated.inquiry.list= Inquiries
 master.menu.authenticated.overture.list = Overtures
 master.menu.authenticated.notice.list = Notices
-
 
 # master.menu.administrator ###################################################
 
