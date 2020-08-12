@@ -10,6 +10,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PastOrPresent;
 
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
@@ -28,6 +29,7 @@ public class Overture extends DomainEntity {
 
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
+	@PastOrPresent
 	private Date				creation;
 
 	@NotNull
