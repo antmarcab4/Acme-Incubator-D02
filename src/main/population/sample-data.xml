@@ -255,5 +255,13 @@
 		<property name="deadline" value= "2019/01/21 14:59"/>
 		<property name="optionalLinks"><null/></property>
 	</bean>
+	
+	<!-- Parameter -->
+	<bean class="acme.entities.parameters.Parameter" id="parameter">
+		<property value="sex, hardcore, viagra, cialis, nigeria, you`ve won, million dollar, sexo, has ganado, millon de dolares" name="spamwords"/>
+		<property value="2.5" name="spamthreshold"/>
+		<property value="Technology, science, Arts, Business, Health" name="activitySector"/>
+	</bean>
+	
 </beans>
 
