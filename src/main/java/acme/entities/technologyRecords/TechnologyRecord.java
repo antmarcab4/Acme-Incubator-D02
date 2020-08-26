@@ -28,8 +28,8 @@ public class TechnologyRecord extends DomainEntity {
 	@URL
 	private String				webSite;
 
-	@NotNull
-	private TipoSector			activitySector;
+	@NotBlank
+	private String				activitySector;
 
 	@NotBlank
 	@Email
